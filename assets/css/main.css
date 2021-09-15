@@ -1,0 +1,94 @@
+.nav-years {
+  mix-blend-mode: difference;
+}
+
+/* body:hover .cursor {
+  opacity: 1.0;
+}
+
+body::before {
+  content: "";
+  z-index: 9999999;
+  position: absolute;
+  opacity: 60%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://uploads-ssl.webflow.com/6071b901447375fba464ddd1/6071baa47d7f7c32b9e2be92_download.png');
+  animation: 0.3s infinite noise;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 2000px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+.trigger__circle,
+.cursor,
+.loader {
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+}
+
+.slider__wave svg path {
+  pointer-events: auto;
+}
+
+.control {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+@keyframes noise {
+
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  10% {
+    background-position: -5% -10%;
+  }
+
+  20% {
+    background-position: -15% 5%;
+  }
+
+  30% {
+    background-position: 7% -25%;
+  }
+
+  40% {
+    background-position: 20% 25%;
+  }
+
+  50% {
+    background-position: -25% 10%;
+  }
+
+  60% {
+    background-position: 15% 5%;
+  }
+
+  70% {
+    background-position: 0% 15%;
+  }
+
+  80% {
+    background-position: 25% 35%;
+  }
+
+  90% {
+    background-position: -10% 10%;
+  }
+}
+
+.loader {
+  opacity: 100%;
+}
+ */

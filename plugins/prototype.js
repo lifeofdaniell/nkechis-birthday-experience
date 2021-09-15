@@ -1,15 +1,6 @@
-import LocomotiveScroll from 'locomotive-scroll'
-import 'locomotive-scroll/dist/locomotive-scroll.css'
 
-const install = (Vue) => {
-  Vue.prototype.LocomotiveScroll = LocomotiveScroll
-}
+import Vue from 'vue'
+import { KinesisContainer, KinesisElement } from 'vue-kinesis'
 
-export default install
-
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(install)
-  if (install.installed) {
-    install.installed = false
-  }
-}
+Vue.component('KinesisContainer', KinesisContainer)
+Vue.component('KinesisElement', KinesisElement)
