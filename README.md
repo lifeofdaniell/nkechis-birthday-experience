@@ -1,4 +1,4 @@
-# nkechi23
+# Nkechi's Birthday Site
 
 ## Build Setup
 
