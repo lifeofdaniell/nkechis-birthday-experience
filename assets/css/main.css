@@ -2,13 +2,9 @@
   mix-blend-mode: difference;
 }
 
-/* body:hover .cursor {
-  opacity: 1.0;
-}
-
-body::before {
+.hero::before {
   content: "";
-  z-index: 9999999;
+  z-index: 10;
   position: absolute;
   opacity: 60%;
   top: 0;
@@ -20,29 +16,6 @@ body::before {
   pointer-events: none;
 }
 
-@media only screen and (min-width: 2000px) {
-  body {
-    font-size: 20px;
-  }
-}
-
-.trigger__circle,
-.cursor,
-.loader {
-  pointer-events: none;
-}
-
-a {
-  color: inherit;
-}
-
-.slider__wave svg path {
-  pointer-events: auto;
-}
-
-.control {
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
-}
 
 @keyframes noise {
 
@@ -86,6 +59,34 @@ a {
   90% {
     background-position: -10% 10%;
   }
+}
+
+/* body:hover .cursor {
+  opacity: 1.0;
+}
+
+@media only screen and (min-width: 2000px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+.trigger__circle,
+.cursor,
+.loader {
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+}
+
+.slider__wave svg path {
+  pointer-events: auto;
+}
+
+.control {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .loader {

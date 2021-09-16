@@ -1,35 +1,5 @@
 <template>
   <div>
-    <div class="nav-years">
-      <a href="#" class="year-link active w-inline-block">
-        <div>Start</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Moyin</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Yunuz</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Victor</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Temileyi</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Kamlash</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Olamide</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>Daniel</div>
-      </a>
-      <a href="#" class="year-link w-inline-block">
-        <div>The Family</div>
-      </a>
-    </div>
-
     <LocomotiveScroll
       ref="scroller"
       :getted-options="{
@@ -43,11 +13,114 @@
         tablet: {
           smooth: true
         }
-        // Other options
       }"
     >
       <div class="page-wrapper">
-        <HeroComponent />
+        <div class="hero">
+          <div class="hero-bg">
+            <div class="hero-asset-container">
+              <div class="hero-asset _0">
+                <div class="hero-image-wrapper">
+                  <img
+                    src="@/assets/images/IMG_0027.JPG"
+                    alt=""
+                    class="hero-image"
+                  >
+                </div>
+              </div>
+
+              <div class="hero-asset _1">
+                <div class="hero-image-wrapper">
+                  <img
+                    src="@/assets/images/IMG_0067.JPG"
+                    alt=""
+                    class="hero-image"
+                  >
+                </div>
+              </div>
+
+              <div class="hero-asset _2">
+                <div class="hero-image-wrapper">
+                  <img
+                    src="@/assets/images/IMG_0074.JPG"
+                    alt=""
+                    class="hero-image"
+                  >
+                </div>
+              </div>
+
+              <div class="hero-asset _4">
+                <div class="hero-image-wrapper">
+                  <img
+                    src="@/assets/images/IMG_6493.JPG"
+                    alt=""
+                    class="hero-image"
+                  >
+                </div>
+              </div>
+
+              <div class="hero-asset _6">
+                <div class="hero-image-wrapper">
+                  <img
+                    src="@/assets/images/IMG_0072.JPG"
+                    alt=""
+                    class="hero-image"
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-animation">
+            <div class="hero-text-container">
+              <div class="hero-text-wrapper top">
+                <h1>Celebrating</h1>
+                <div class="intro-years">
+                  <div class="intro-tens">
+                    <div class="intro-tens-inner">
+                      <h1>0</h1>
+                      <h1>1</h1>
+                      <h1>2</h1>
+                      <h1>3</h1>
+                      <h1>4</h1>
+                      <h1>5</h1>
+                    </div>
+                  </div>
+                  <div class="intro-ones">
+                    <div class="intro-ones-inner">
+                      <h1>0</h1>
+                      <h1>1</h1>
+                      <h1>2</h1>
+                      <h1>3</h1>
+                      <h1>4</h1>
+                      <h1>5</h1>
+                      <h1>6</h1>
+                      <h1>7</h1>
+                      <h1>8</h1>
+                      <h1>9</h1>
+                      <h1>0</h1>
+                      <h1>1</h1>
+                      <h1>2</h1>
+                      <h1>3</h1>
+                      <h1>4</h1>
+                      <h1>5</h1>
+                      <h1>6</h1>
+                      <h1>7</h1>
+                      <h1>8</h1>
+                      <h1>9</h1>
+                    </div>
+                  </div>
+                </div>
+                <h1>Years</h1>
+              </div>
+            </div>
+            <div class="hero-text-container bottom">
+              <div class="hero-text-wrapper bottom">
+                <h1>With Nkechi Okochi.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="years-wrapper">
           <div class="year">
@@ -213,10 +286,43 @@
         </div>
       </div>
     </LocomotiveScroll>
+    <div class="nav-years">
+      <a href="#" class="year-link active w-inline-block">
+        <div>1998</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Moyin</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Yunuz</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Victor</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Temileyi</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Kamlash</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Olamide</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>Daniel</div>
+      </a>
+      <a href="#" class="year-link w-inline-block">
+        <div>The Family</div>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   head () {
     return {
@@ -277,6 +383,70 @@ export default {
         }
       ]
     }
+  },
+
+  mounted () {
+    this.initScrolltrigger()
+    this.heroAnimation()
+  },
+
+  methods: {
+    initScrolltrigger () {
+      const locomotive = this.$refs.scroller.locomotive
+      locomotive.on('scroll', ScrollTrigger.update)
+      ScrollTrigger.scrollerProxy(locomotive.el, {
+        scrollTop (value) {
+          return arguments.length
+            ? locomotive.scrollTo(value, 0, 0)
+            : locomotive.scroll.instance.scroll.y
+        },
+        getBoundingClientRect () {
+          return {
+            top: 0,
+            left: 0,
+            width: window.innerWidth,
+            height: window.innerHeight
+          }
+        }
+      })
+    },
+    heroAnimation () {
+      const tl = gsap.timeline({
+        paused: true
+      })
+      tl.from('.hero-text-wrapper.top', { yPercent: 120 })
+      tl.from('.hero-text-wrapper.bottom', { yPercent: 120 })
+      tl.to('.intro-tens-inner', { yPercent: -33 })
+      tl.to('.intro-ones-inner', { yPercent: -65 })
+
+      gsap.timeline({
+        scrollTrigger: {
+          trigger: '.hero',
+          scroller: this.$refs.scroller.locomotive.el,
+          start: 'top top',
+          end: +2000,
+          snap: 0.1,
+          pin: true,
+          scrub: true,
+          onLeave: () => { tl.play() }
+        }
+      })
+        .to('.hero-asset._6', { yPercent: -180, rotateZ: -130 }, '>')
+        .to('.hero-asset._4', { yPercent: -180, rotateZ: -150 }, '>')
+        .to('.hero-asset._2', { yPercent: -180, rotateZ: -120 }, '>')
+        .to('.hero-asset._1', { yPercent: -180, rotateZ: -110 }, '>')
+        .to('.hero-asset._0', { yPercent: -180, rotateZ: -130 }, '>')
+
+      // endAnim.delay(startAnim.duration())
+      /*    startAnim.eventCallback('onLeave', function () {
+        endAnim.play(0)
+      }) */
+    }
+
   }
 }
 </script>
+
+<style>
+
+</style>
