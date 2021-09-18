@@ -210,7 +210,7 @@
           </div>
         </div>
 
-        <div id="fixed-target" class="years-wrapper" data-scroll>
+        <div id="fixed-target" class="years-wrapper">
           <!--   <div class="nav-years" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
             <a href="#" class="year-link w-inline-block">
               <div>Moyin</div>
@@ -254,7 +254,7 @@
             </div>
           </div>
 
-          <div class="year first">
+          <div class="year">
             <h1 class="large-year">
               Moyin
             </h1>
@@ -310,7 +310,7 @@
             <h1 class="large-year">
               Victor
             </h1>
-            <div class="year-text-container horizontal">
+            <div class="year-text-container center stack">
               <div class="video-wrapper centered">
                 <h5 class="date">
                   Victor
@@ -331,7 +331,7 @@
                   class="image stack"
                 >
               </div>
-              <div class="image-wrapper victor top-center stack">
+              <div class="image-wrapper victor top-center-left stack">
                 <img
                   src="@/assets/images/Victor x Nkay-006.jpg"
 
@@ -339,7 +339,7 @@
                   class="image stack"
                 >
               </div>
-              <div class="image-wrapper victor top-center right stack">
+              <div class="image-wrapper victor top-center-right stack">
                 <img
                   src="@/assets/images/Victor x Nkay-010.jpg"
 
@@ -437,7 +437,7 @@
             <h1 class="large-year kamlash">
               Kamlash
             </h1>
-            <div class="year-text-container center">
+            <div class="year-text-container center stack">
               <div class="video-wrapper centered">
                 <h5 class="date">
                   Kamlash
@@ -474,7 +474,7 @@
                   class="image stack"
                 >
               </div>
-              <div class="image-wrapper kamlash bottom-center stack">
+              <div class="image-wrapper kamlash rotate-center stack">
                 <img
                   src="@/assets/images/Kemi x Nkay-002.jpg"
 
@@ -634,6 +634,7 @@ export default {
     this.nameAnimation()
     this.imageParallax()
     this.stackAnimation()
+    this.$nuxt.$emit('update-locomotive')
   },
 
   methods: {
@@ -706,7 +707,6 @@ export default {
       const navTl = gsap.timeline({
         scrollTrigger: {
           trigger: '.year.first',
-
           start: 'top top'
         }
       })
@@ -717,9 +717,9 @@ export default {
       gsap.utils.toArray('.large-year').forEach((element) => {
         gsap.to(element, {
           scrollTrigger: {
-            trigger: element,
+            trigger: element.parentElement,
             scroller: this.$refs.scroller.locomotive.el,
-            start: 'top 70%',
+            start: 'top 50%',
             scrub: true
           },
           x: -450
@@ -736,7 +736,9 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: -150
+          y: -150,
+          scale: 0.85,
+          x: -150
         })
       })
       gsap.utils.toArray('.image-wrapper.top-right.parallax').forEach((topRightImg) => {
@@ -747,7 +749,8 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: 100
+          y: 60,
+          x: -70
         })
       })
       gsap.utils.toArray('.image-wrapper.top-left.parallax').forEach((topLeftImg) => {
@@ -758,8 +761,8 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: -75,
-          x: -150
+          y: -70,
+          x: 30
         })
       })
       gsap.utils.toArray('.image-wrapper.center-right.parallax').forEach((centerRightImg) => {
@@ -770,35 +773,178 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: -15,
-          x: -150
+          y: -45,
+          x: -50
         })
       })
     },
 
-    stackAnimation () {}
+    stackAnimation () {
+      gsap.utils.toArray('.image-wrapper.top-left.stack').forEach((topLeftStackImg) => {
+        gsap.to(topLeftStackImg, {
+          scrollTrigger: {
+            trigger: topLeftStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: -220,
+          x: -500
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.top-center-left.stack').forEach((topCenterStackImg) => {
+        gsap.to(topCenterStackImg, {
+          scrollTrigger: {
+            trigger: topCenterStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: -250,
+          x: -120
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.top-center-right.stack').forEach((topCenterRStackImg) => {
+        gsap.to(topCenterRStackImg, {
+          scrollTrigger: {
+            trigger: topCenterRStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: -230,
+          x: 200
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.top-right.stack').forEach((topRightStackImg) => {
+        gsap.to(topRightStackImg, {
+          scrollTrigger: {
+            trigger: topRightStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: -220,
+          x: 500
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.bottom-left.stack').forEach((bottomLeftStackImg) => {
+        gsap.to(bottomLeftStackImg, {
+          scrollTrigger: {
+            trigger: bottomLeftStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: 160,
+          x: -400
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.bottom-center.stack').forEach((bottomCenterStackImg) => {
+        gsap.to(bottomCenterStackImg, {
+          scrollTrigger: {
+            trigger: bottomCenterStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.65,
+          y: 245,
+          x: 0
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.bottom-right.stack').forEach((bottomRightStackImg) => {
+        gsap.to(bottomRightStackImg, {
+          scrollTrigger: {
+            trigger: bottomRightStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: 160,
+          x: 400
+        })
+      })
+      // Kamlash Section
+      gsap.utils.toArray('.image-wrapper.top-center.stack').forEach((ktopCenterRStackImg) => {
+        gsap.to(ktopCenterRStackImg, {
+          scrollTrigger: {
+            trigger: ktopCenterRStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: 0,
+          scale: 0.75,
+          y: -240,
+          x: 0
+        })
+      })
+      gsap.utils.toArray('.image-wrapper.rotate-center.stack').forEach((kbottomCenterStackImg) => {
+        gsap.to(kbottomCenterStackImg, {
+          scrollTrigger: {
+            trigger: kbottomCenterStackImg.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top top',
+            // pin: true,
+            scrub: true
+          },
+          rotationZ: -90,
+          scale: 0.75,
+          y: 160,
+          x: -400
+        })
+      })
+    }
   }
-
 }
+
 </script>
 
 <style>
-.hero{
+.hero {
   z-index: 20;
 }
-/* .hero-asset{
-  left: 53%;
-} */
-/* .nav-years{
-  height: 100%;
-  z-index: 100;
-  position: absolute;
-  justify-content: center;
-  top: 0%;
-  left: 0%;
-  bottom: 0%;
-} */
-/* .page-wrapper {
-  cursor: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/party-popper_1f389.png')
-} */
+.video-wrapper > a {
+  text-decoration: underline;
+}
+.image-wrapper.victor.top-center-left {
+  margin-left: -14%;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.image-wrapper.victor.top-center-right {
+  margin-left: -10%;
+  -webkit-transform: rotate(9deg) rotate(3deg);
+  -ms-transform: rotate(9deg) rotate(3deg);
+  transform: rotate(9deg) rotate(3deg);
+}
+.image-wrapper.kamlash.rotate-center {
+  margin-left: -15%;
+  -webkit-transform: rotate(-11deg);
+  -ms-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+}
 </style>

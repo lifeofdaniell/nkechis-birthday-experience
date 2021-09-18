@@ -393,7 +393,7 @@ p {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   overflow: hidden;
   width: 100%;
   min-height: 100vh;
@@ -592,6 +592,15 @@ p {
 
 .year-text-container.center {
   min-height: 140vh;
+  padding-left: 10vw;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.year-text-container.center.stack {
+  min-height: 100vh;
   padding-left: 10vw;
   -webkit-box-align: center;
   -webkit-align-items: center;
