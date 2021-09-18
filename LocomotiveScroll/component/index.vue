@@ -74,6 +74,7 @@ export default {
 .has-scroll-smooth .js-locomotive {
   min-height: 100vh;
   width: 100%;
+  position: relative;
 }
 
 .has-scroll-smooth .js-locomotive.horizontal {
