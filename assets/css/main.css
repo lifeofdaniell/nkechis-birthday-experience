@@ -2,6 +2,12 @@
   mix-blend-mode: difference;
 }
 
+.c-scrollbar,
+.c-scrollbar_thumb {
+  display: none;
+}
+
+
 /* .hero::before {
   content: "";
   z-index: 10;
