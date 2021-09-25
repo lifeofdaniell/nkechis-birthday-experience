@@ -91,7 +91,6 @@ export default {
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-003_glbkhc.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-001_qbcmye.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-004_d6lzmq.jpg'
-
       ]
     }
   },

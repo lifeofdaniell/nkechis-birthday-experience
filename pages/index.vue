@@ -264,32 +264,28 @@
             </div>
             <div class="image-wrapper bottom-left moyin parallax">
               <img
-                src="@/assets/images/Moyin x Nkay-004.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513256/Nkechi%20Birthday/Moyin_x_Nkay-004_e37udp.jpg"
                 alt=""
                 class="image mid"
               >
             </div>
             <div class="image-wrapper top-right moyin parallax">
               <img
-                src="@/assets/images/Moyin x Nkay-001.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513256/Nkechi%20Birthday/Moyin_x_Nkay-001_drlt8v.jpg"
                 alt=""
                 class="image mid"
               >
             </div>
             <div class="image-wrapper center-right moyin parallax">
               <img
-                src="@/assets/images/Moyin x Nkay-003.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513255/Nkechi%20Birthday/Moyin_x_Nkay-003_aulmxc.jpg"
                 alt=""
                 class="image mid"
               >
             </div>
             <div class="image-wrapper top-left moyin parallax">
               <img
-                src="@/assets/images/Moyin x Nkay-002.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513257/Nkechi%20Birthday/Moyin_x_Nkay-002_mdlkqb.jpg"
                 alt=""
                 class="image mid"
               >
@@ -316,56 +312,49 @@
             </div>
             <div class="image-wrapper victor top-left stack">
               <img
-                src="@/assets/images/Victor x Nkay-011.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Victor_x_Nkay-011_kg3sfw.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper victor top-center-left stack">
               <img
-                src="@/assets/images/Victor x Nkay-006.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513267/Nkechi%20Birthday/Victor_x_Nkay-006_jyhusv.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper victor top-center-right stack">
               <img
-                src="@/assets/images/Victor x Nkay-010.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513269/Nkechi%20Birthday/Victor_x_Nkay-010_vfnm58.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper victor top-right stack">
               <img
-                src="@/assets/images/Victor x Nkay-012.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513268/Nkechi%20Birthday/Victor_x_Nkay-012_ppet2n.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper victor bottom-left stack">
               <img
-                src="@/assets/images/Victor x Nkay-007.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513267/Nkechi%20Birthday/Victor_x_Nkay-007_losvlf.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper victor bottom-center stack">
               <img
-                src="@/assets/images/Victor x Nkay-005.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513265/Nkechi%20Birthday/Victor_x_Nkay-005_vk4aud.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper victor bottom-right stack">
               <img
-                src="@/assets/images/Victor x Nkay-001.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513265/Nkechi%20Birthday/Victor_x_Nkay-001_nvl2ip.jpg"
                 alt=""
                 class="image stack"
               >
@@ -392,31 +381,28 @@
             </div>
             <div class="image-wrapper top-left yunuz parallax">
               <img
-                src="@/assets/images/Yunuz x Nkay-003.jpg"
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-003_gmxmqk.jpg"
                 alt=""
                 class="image mid"
               >
             </div>
             <div class="image-wrapper top-right yunuz parallax">
               <img
-                src="@/assets/images/Yunuz x Nkay-002.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-002_u2ydlw.jpg"
                 alt=""
                 class="image mid"
               >
             </div>
             <div class="image-wrapper bottom-left yunuz parallax">
               <img
-                src="@/assets/images/Yunuz x Nkay-005.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-005_to7xdf.jpg"
                 alt=""
                 class="image mid"
               >
             </div>
             <div class="image-wrapper center-right yunuz parallax">
               <img
-                src="@/assets/images/Yunuz x Nkay-001.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-001_oamllq.jpg"
                 alt=""
                 class="image mid"
               >
@@ -443,40 +429,35 @@
             </div>
             <div class="image-wrapper kamlash top-left stack">
               <img
-                src="@/assets/images/Kemi x Nkay-003.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513252/Nkechi%20Birthday/Kemi_x_Nkay-003_o3jadm.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper kamlash top-center stack">
               <img
-                src="@/assets/images/Kemi x Nkay-005.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513252/Nkechi%20Birthday/Kemi_x_Nkay-005_ifz0i6.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper kamlash top-right stack">
               <img
-                src="@/assets/images/Kemi x Nkay-008.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513255/Nkechi%20Birthday/Kemi_x_Nkay-008_rxqdap.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper kamlash rotate-center stack">
               <img
-                src="@/assets/images/Kemi x Nkay-002.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513252/Nkechi%20Birthday/Kemi_x_Nkay-002_zsor8v.jpg"
                 alt=""
                 class="image stack"
               >
             </div>
             <div class="image-wrapper kamlash bottom-right stack">
               <img
-                src="@/assets/images/Kemi x Nkay-009.jpg"
-
+                src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513254/Nkechi%20Birthday/Kemi_x_Nkay-009_awf3ia.jpg"
                 alt=""
                 class="image stack"
               >
