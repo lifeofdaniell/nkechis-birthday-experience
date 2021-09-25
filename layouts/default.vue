@@ -30,8 +30,8 @@ export default {
 </script>
 <style>
  .fade-enter-active, .fade-leave-active {
-  transition: opacity  2s;
-  transition-delay: 1s;
+  transition: opacity  1s;
+  transition-delay: 0.5s;
 }
 .fade-enter, .fade-leave-to{
    opacity: 0;

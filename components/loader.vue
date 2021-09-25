@@ -1,5 +1,6 @@
 <template>
   <div ref="loader" class="loader-wrapper">
+    <div class="loader-bg" />
     <div class="hero-asset _7 loading">
       <div class="hero-image-wrapper">
         <img
@@ -11,7 +12,7 @@
       </div>
     </div>
     <div class="loader-text">
-      1998
+      2021
     </div>
   </div>
 </template>
@@ -124,13 +125,30 @@ export default {
               opacity: 1,
               duration: 1
             })
+            tl.from('.loader-text', {
+              duration: 2,
+              ease: 'none',
+              innerText: 1998,
+              roundProps: 'innerText',
+              onUpdate: () => {
+                this.targets().forEach((target) => {
+                  const val = gsap.getProperty(target, 'innerText')
+                  target.innerText = val
+                })
+              }
+            }, '<1')
             tl.to('.hero-asset._7.loading', {
               opacity: 1
-            }, '>0.5')
+            }, '>')
             tl.to('.hero-asset._7.loading', {
               translateY: 0,
               duration: 1.5,
               rotateZ: -11
+            })
+            tl.to('.loader-bg', {
+              duration: 1,
+              ease: 'power2.out',
+              yPercent: -100
             }, '>')
           }
         })
@@ -144,5 +162,39 @@ export default {
 <style>
 .loader-text{
   opacity: 0;
+  letter-spacing: -5px;
+  z-index: 2;
 }
+.hero-asset._7.loading{
+  z-index: 3;
+}
+.loader-bg{
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 300px;
+  line-height: 1em;
+  font-weight: 300;
+  letter-spacing: 50px;
+}
+
 </style>

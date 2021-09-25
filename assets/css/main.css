@@ -7,7 +7,7 @@
   display: none;
 }
 
- .loader-wrapper::before {
+ .loader-bg::before {
   content: "";
   z-index: 10;
   position: absolute;
