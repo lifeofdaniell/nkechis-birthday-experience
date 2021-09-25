@@ -1,217 +1,208 @@
 <template>
-  <div>
-    <LocomotiveScroll
-      ref="scroller"
-      :getted-options="{
-        direction: 'vertical',
-        smooth: true,
-        getSpeed: true,
-        lerp: 0.1,
-        smartphone: {
-          smooth: true
-        },
-        tablet: {
-          smooth: true
-        }
-      }"
-    >
-      <div class="page-wrapper">
-        <div class="hero">
-          <div class="hero-bg">
-            <div class="hero-asset-container">
-              <div class="hero-asset _0">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/IMG_0027.JPG"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _1">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-003.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _2">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-007.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _3">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-009.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _4">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-011.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _5">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-018.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _6">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-010.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
-              </div>
-              <div class="hero-asset _7">
-                <div class="hero-image-wrapper">
-                  <img
-                    src="@/assets/images/Nkay-008.jpg"
-
-                    alt=""
-                    class="hero-image"
-                  >
-                </div>
+  <LocomotiveScroll
+    ref="scroller"
+    :getted-options="{
+      direction: 'vertical',
+      smooth: true,
+      getSpeed: true,
+      lerp: 0.1,
+      smartphone: {
+        smooth: true
+      },
+      tablet: {
+        smooth: true
+      }
+    }"
+  >
+    <div class="page-wrapper">
+      <div class="hero">
+        <div class="hero-bg">
+          <div class="hero-asset-container">
+            <div class="hero-asset _0">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513252/Nkechi%20Birthday/IMG_0027_efwvl7.jpg"
+                  alt=""
+                  class="hero-image"
+                >
               </div>
             </div>
-          </div>
-          <div class="hero-animation">
-            <div class="hero-text-container">
-              <div class="hero-text-wrapper top">
-                <h1 class="hero-text">
-                  Celebrating
-                </h1>
-                <div class="intro-years">
-                  <div class="intro-tens">
-                    <div class="intro-tens-inner">
-                      <h1 class="hero-text">
-                        0
-                      </h1>
-                      <h1 class="hero-text">
-                        1
-                      </h1>
-                      <h1 class="hero-text">
-                        2
-                      </h1>
-                      <h1 class="hero-text">
-                        3
-                      </h1>
-                      <h1 class="hero-text">
-                        4
-                      </h1>
-                      <h1 class="hero-text">
-                        5
-                      </h1>
-                    </div>
-                  </div>
-                  <div class="intro-ones">
-                    <div class="intro-ones-inner">
-                      <h1 class="hero-text">
-                        0
-                      </h1>
-                      <h1 class="hero-text">
-                        1
-                      </h1>
-                      <h1 class="hero-text">
-                        2
-                      </h1>
-                      <h1 class="hero-text">
-                        3
-                      </h1>
-                      <h1 class="hero-text">
-                        4
-                      </h1>
-                      <h1 class="hero-text">
-                        5
-                      </h1>
-                      <h1 class="hero-text">
-                        6
-                      </h1>
-                      <h1 class="hero-text">
-                        7
-                      </h1>
-                      <h1 class="hero-text">
-                        8
-                      </h1>
-                      <h1 class="hero-text">
-                        9
-                      </h1>
-                      <h1 class="hero-text">
-                        0
-                      </h1>
-                      <h1 class="hero-text">
-                        1
-                      </h1>
-                      <h1 class="hero-text">
-                        2
-                      </h1>
-                      <h1 class="hero-text">
-                        3
-                      </h1>
-                      <h1 class="hero-text">
-                        4
-                      </h1>
-                      <h1 class="hero-text">
-                        5
-                      </h1>
-                      <h1 class="hero-text">
-                        6
-                      </h1>
-                      <h1 class="hero-text">
-                        7
-                      </h1>
-                      <h1 class="hero-text">
-                        8
-                      </h1>
-                      <h1 class="hero-text">
-                        9
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <h1 class="hero-text">
-                  Years
-                </h1>
+            <div class="hero-asset _1">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513258/Nkechi%20Birthday/Nkay-003_ud8yqo.jpg"
+                  alt=""
+                  class="hero-image"
+                >
               </div>
             </div>
-            <div class="hero-text-container bottom">
-              <div class="hero-text-wrapper bottom">
-                <h1 class="hero-text">
-                  With Nkechi Okochi.
-                </h1>
+            <div class="hero-asset _2">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513259/Nkechi%20Birthday/Nkay-007_bpzpmy.jpg"
+                  alt=""
+                  class="hero-image"
+                >
+              </div>
+            </div>
+            <div class="hero-asset _3">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513262/Nkechi%20Birthday/Nkay-009_wxnkgs.jpg"
+                  alt=""
+                  class="hero-image"
+                >
+              </div>
+            </div>
+            <div class="hero-asset _4">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513260/Nkechi%20Birthday/Nkay-011_v13ouu.jpg"
+                  alt=""
+                  class="hero-image"
+                >
+              </div>
+            </div>
+            <div class="hero-asset _5">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513266/Nkechi%20Birthday/Nkay-018_rrqvrm.jpg"
+                  alt=""
+                  class="hero-image"
+                >
+              </div>
+            </div>
+            <div class="hero-asset _6">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513262/Nkechi%20Birthday/Nkay-010_kvnvxs.jpg"
+                  alt=""
+                  class="hero-image"
+                >
+              </div>
+            </div>
+            <div class="hero-asset _7">
+              <div class="hero-image-wrapper">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513260/Nkechi%20Birthday/Nkay-008_eruiys.jpg"
+
+                  alt=""
+                  class="hero-image"
+                >
               </div>
             </div>
           </div>
         </div>
-
-        <div id="fixed-target" class="years-wrapper">
-          <!--   <div class="nav-years" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+        <div class="hero-animation">
+          <div class="hero-text-container">
+            <div class="hero-text-wrapper top">
+              <h1 class="hero-text">
+                Celebrating
+              </h1>
+              <div class="intro-years">
+                <div class="intro-tens">
+                  <div class="intro-tens-inner">
+                    <h1 class="hero-text">
+                      0
+                    </h1>
+                    <h1 class="hero-text">
+                      1
+                    </h1>
+                    <h1 class="hero-text">
+                      2
+                    </h1>
+                    <h1 class="hero-text">
+                      3
+                    </h1>
+                    <h1 class="hero-text">
+                      4
+                    </h1>
+                    <h1 class="hero-text">
+                      5
+                    </h1>
+                  </div>
+                </div>
+                <div class="intro-ones">
+                  <div class="intro-ones-inner">
+                    <h1 class="hero-text">
+                      0
+                    </h1>
+                    <h1 class="hero-text">
+                      1
+                    </h1>
+                    <h1 class="hero-text">
+                      2
+                    </h1>
+                    <h1 class="hero-text">
+                      3
+                    </h1>
+                    <h1 class="hero-text">
+                      4
+                    </h1>
+                    <h1 class="hero-text">
+                      5
+                    </h1>
+                    <h1 class="hero-text">
+                      6
+                    </h1>
+                    <h1 class="hero-text">
+                      7
+                    </h1>
+                    <h1 class="hero-text">
+                      8
+                    </h1>
+                    <h1 class="hero-text">
+                      9
+                    </h1>
+                    <h1 class="hero-text">
+                      0
+                    </h1>
+                    <h1 class="hero-text">
+                      1
+                    </h1>
+                    <h1 class="hero-text">
+                      2
+                    </h1>
+                    <h1 class="hero-text">
+                      3
+                    </h1>
+                    <h1 class="hero-text">
+                      4
+                    </h1>
+                    <h1 class="hero-text">
+                      5
+                    </h1>
+                    <h1 class="hero-text">
+                      6
+                    </h1>
+                    <h1 class="hero-text">
+                      7
+                    </h1>
+                    <h1 class="hero-text">
+                      8
+                    </h1>
+                    <h1 class="hero-text">
+                      9
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <h1 class="hero-text">
+                Years
+              </h1>
+            </div>
+          </div>
+          <div class="hero-text-container bottom">
+            <div class="hero-text-wrapper bottom">
+              <h1 class="hero-text">
+                With Nkechi Okochi.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="years-wrapper">
+        <!--   <div class="nav-years" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
             <a href="#" class="year-link w-inline-block">
               <div>Moyin</div>
             </a>
@@ -234,328 +225,327 @@
               <div>The Family</div>
             </a>
           </div> -->
-          <div class="year prefix">
-            <div class="year-text-container">
-              <div class="year-text-wrapper">
-                <h5 class="date ps">
-                  October 1
-                </h5>
-                <p class="pretext header">
-                  Nkechinyeremkanma! You&#x27;re <strong>23</strong> years today!
-                  To celebrate you, we both how much of an impact you&#x27;ve had
-                  on me as a person, but do you know how much impact you&#x27;ve
-                  had on others and how much they appreciate you? This is a
-                  reminder. 🖤
-                </p>
-                <p class="pretext ps">
-                  <em>PS. I had a blast creating this!</em>
-                </p>
-              </div>
+        <div class="year prefix">
+          <div class="year-text-container">
+            <div class="year-text-wrapper">
+              <h5 class="date ps">
+                October 1
+              </h5>
+              <p class="pretext header">
+                Nkechinyeremkanma! You&#x27;re <strong>23</strong> years today!
+                To celebrate you, we both how much of an impact you&#x27;ve had
+                on me as a person, but do you know how much impact you&#x27;ve
+                had on others and how much they appreciate you? This is a
+                reminder. 🖤
+              </p>
+              <p class="pretext ps">
+                <em>PS. I had a blast creating this!</em>
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="year">
-            <h1 class="large-year">
-              Moyin
-            </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Moyinoluwa
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;You&#x27;re such an amazing person!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Thank you for all the beautiful years of friendship&#x27;
-                </p>
-                <a href="#">See Moyin&#x27;s birthday wish video</a>
-              </div>
-              <div class="image-wrapper bottom-left moyin parallax">
-                <img
-                  src="@/assets/images/Moyin x Nkay-004.jpg"
+        <div class="year">
+          <h1 class="large-year">
+            Moyin
+          </h1>
+          <div class="year-text-container center">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                Moyinoluwa
+              </h5>
+              <h1 class="birthday-header">
+                &quot;You&#x27;re such an amazing person!&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;Thank you for all the beautiful years of friendship&#x27;
+              </p>
+              <a href="#">See Moyin&#x27;s birthday wish video</a>
+            </div>
+            <div class="image-wrapper bottom-left moyin parallax">
+              <img
+                src="@/assets/images/Moyin x Nkay-004.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
-              <div class="image-wrapper top-right moyin parallax">
-                <img
-                  src="@/assets/images/Moyin x Nkay-001.jpg"
+                alt=""
+                class="image mid"
+              >
+            </div>
+            <div class="image-wrapper top-right moyin parallax">
+              <img
+                src="@/assets/images/Moyin x Nkay-001.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
-              <div class="image-wrapper center-right moyin parallax">
-                <img
-                  src="@/assets/images/Moyin x Nkay-003.jpg"
+                alt=""
+                class="image mid"
+              >
+            </div>
+            <div class="image-wrapper center-right moyin parallax">
+              <img
+                src="@/assets/images/Moyin x Nkay-003.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
-              <div class="image-wrapper top-left moyin parallax">
-                <img
-                  src="@/assets/images/Moyin x Nkay-002.jpg"
+                alt=""
+                class="image mid"
+              >
+            </div>
+            <div class="image-wrapper top-left moyin parallax">
+              <img
+                src="@/assets/images/Moyin x Nkay-002.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
+                alt=""
+                class="image mid"
+              >
             </div>
           </div>
+        </div>
 
-          <div class="year horizontal">
-            <h1 class="large-year">
-              Victor
-            </h1>
-            <div class="year-text-container center stack">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Victor
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;It&#x27;s no news that i love you so much&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Wish you loads of fun&#x27;
-                </p>
-                <a href="#">See Victor&#x27;s birthday wish video</a>
-              </div>
-              <div class="image-wrapper victor top-left stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-011.jpg"
+        <div class="year horizontal">
+          <h1 class="large-year">
+            Victor
+          </h1>
+          <div class="year-text-container center stack">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                Victor
+              </h5>
+              <h1 class="birthday-header">
+                &quot;It&#x27;s no news that i love you so much&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;Wish you loads of fun&#x27;
+              </p>
+              <a href="#">See Victor&#x27;s birthday wish video</a>
+            </div>
+            <div class="image-wrapper victor top-left stack">
+              <img
+                src="@/assets/images/Victor x Nkay-011.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper victor top-center-left stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-006.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper victor top-center-left stack">
+              <img
+                src="@/assets/images/Victor x Nkay-006.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper victor top-center-right stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-010.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper victor top-center-right stack">
+              <img
+                src="@/assets/images/Victor x Nkay-010.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper victor top-right stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-012.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper victor top-right stack">
+              <img
+                src="@/assets/images/Victor x Nkay-012.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper victor bottom-left stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-007.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper victor bottom-left stack">
+              <img
+                src="@/assets/images/Victor x Nkay-007.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper victor bottom-center stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-005.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper victor bottom-center stack">
+              <img
+                src="@/assets/images/Victor x Nkay-005.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper victor bottom-right stack">
-                <img
-                  src="@/assets/images/Victor x Nkay-001.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper victor bottom-right stack">
+              <img
+                src="@/assets/images/Victor x Nkay-001.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
+                alt=""
+                class="image stack"
+              >
             </div>
           </div>
+        </div>
 
-          <div class="year">
-            <h1 class="large-year">
-              Yunuz
-            </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Yunuz
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;You&#x27;re a star!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;My friieennnnddddddddd&#x27;
-                </p>
-                <a href="#">See Yunuz&#x27;s birthday wish video</a>
-              </div>
-              <div class="image-wrapper top-left yunuz parallax">
-                <img
-                  src="@/assets/images/Yunuz x Nkay-003.jpg"
-                  alt=""
-                  class="image mid"
-                >
-              </div>
-              <div class="image-wrapper top-right yunuz parallax">
-                <img
-                  src="@/assets/images/Yunuz x Nkay-002.jpg"
+        <div class="year">
+          <h1 class="large-year">
+            Yunuz
+          </h1>
+          <div class="year-text-container center">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                Yunuz
+              </h5>
+              <h1 class="birthday-header">
+                &quot;You&#x27;re a star!&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;My friieennnnddddddddd&#x27;
+              </p>
+              <a href="#">See Yunuz&#x27;s birthday wish video</a>
+            </div>
+            <div class="image-wrapper top-left yunuz parallax">
+              <img
+                src="@/assets/images/Yunuz x Nkay-003.jpg"
+                alt=""
+                class="image mid"
+              >
+            </div>
+            <div class="image-wrapper top-right yunuz parallax">
+              <img
+                src="@/assets/images/Yunuz x Nkay-002.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
-              <div class="image-wrapper bottom-left yunuz parallax">
-                <img
-                  src="@/assets/images/Yunuz x Nkay-005.jpg"
+                alt=""
+                class="image mid"
+              >
+            </div>
+            <div class="image-wrapper bottom-left yunuz parallax">
+              <img
+                src="@/assets/images/Yunuz x Nkay-005.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
-              <div class="image-wrapper center-right yunuz parallax">
-                <img
-                  src="@/assets/images/Yunuz x Nkay-001.jpg"
+                alt=""
+                class="image mid"
+              >
+            </div>
+            <div class="image-wrapper center-right yunuz parallax">
+              <img
+                src="@/assets/images/Yunuz x Nkay-001.jpg"
 
-                  alt=""
-                  class="image mid"
-                >
-              </div>
+                alt=""
+                class="image mid"
+              >
             </div>
           </div>
+        </div>
 
-          <div class="year">
-            <h1 class="large-year kamlash">
-              Kamlash
-            </h1>
-            <div class="year-text-container center stack">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Kamlash
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;You&#x27;ve been nothing but great!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;I&#x27;m happy to celebrate you every year&#x27;
-                </p>
-                <a href="#">See Kamlash&#x27;s birthday wish video</a>
-              </div>
-              <div class="image-wrapper kamlash top-left stack">
-                <img
-                  src="@/assets/images/Kemi x Nkay-003.jpg"
+        <div class="year">
+          <h1 class="large-year kamlash">
+            Kamlash
+          </h1>
+          <div class="year-text-container center stack">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                Kamlash
+              </h5>
+              <h1 class="birthday-header">
+                &quot;You&#x27;ve been nothing but great!&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;I&#x27;m happy to celebrate you every year&#x27;
+              </p>
+              <a href="#">See Kamlash&#x27;s birthday wish video</a>
+            </div>
+            <div class="image-wrapper kamlash top-left stack">
+              <img
+                src="@/assets/images/Kemi x Nkay-003.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper kamlash top-center stack">
-                <img
-                  src="@/assets/images/Kemi x Nkay-005.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper kamlash top-center stack">
+              <img
+                src="@/assets/images/Kemi x Nkay-005.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper kamlash top-right stack">
-                <img
-                  src="@/assets/images/Kemi x Nkay-008.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper kamlash top-right stack">
+              <img
+                src="@/assets/images/Kemi x Nkay-008.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper kamlash rotate-center stack">
-                <img
-                  src="@/assets/images/Kemi x Nkay-002.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper kamlash rotate-center stack">
+              <img
+                src="@/assets/images/Kemi x Nkay-002.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
-              <div class="image-wrapper kamlash bottom-right stack">
-                <img
-                  src="@/assets/images/Kemi x Nkay-009.jpg"
+                alt=""
+                class="image stack"
+              >
+            </div>
+            <div class="image-wrapper kamlash bottom-right stack">
+              <img
+                src="@/assets/images/Kemi x Nkay-009.jpg"
 
-                  alt=""
-                  class="image stack"
-                >
-              </div>
+                alt=""
+                class="image stack"
+              >
             </div>
           </div>
+        </div>
 
-          <div class="year horizontal">
-            <h1 class="large-year olamide">
-              Olamide
-            </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Olamide
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;Love you babe!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Kisses!&#x27;
-                </p>
-                <a href="#">See Olamide&#x27;s birthday wish video</a>
-              </div>
+        <div class="year horizontal">
+          <h1 class="large-year olamide">
+            Olamide
+          </h1>
+          <div class="year-text-container center">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                Olamide
+              </h5>
+              <h1 class="birthday-header">
+                &quot;Love you babe!&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;Kisses!&#x27;
+              </p>
+              <a href="#">See Olamide&#x27;s birthday wish video</a>
             </div>
           </div>
+        </div>
 
-          <div class="year">
-            <h1 class="large-year moonface">
-              Moonface
-            </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Moonface
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;Love you babe!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Kisses!&#x27;
-                </p>
-                <a href="#">See Moonface&#x27;s birthday wish video</a>
-              </div>
+        <div class="year">
+          <h1 class="large-year moonface">
+            Moonface
+          </h1>
+          <div class="year-text-container center">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                Moonface
+              </h5>
+              <h1 class="birthday-header">
+                &quot;Love you babe!&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;Kisses!&#x27;
+              </p>
+              <a href="#">See Moonface&#x27;s birthday wish video</a>
             </div>
           </div>
+        </div>
 
-          <div class="year">
-            <h1 class="large-year family">
-              The Family
-            </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  The Family
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;Love you babe!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Kisses!&#x27;
-                </p>
-                <a href="#">See your family&#x27;s birthday wish video</a>
-              </div>
+        <div class="year">
+          <h1 class="large-year family">
+            The Family
+          </h1>
+          <div class="year-text-container center">
+            <div class="video-wrapper centered">
+              <h5 class="date">
+                The Family
+              </h5>
+              <h1 class="birthday-header">
+                &quot;Love you babe!&quot;
+              </h1>
+              <p class="birthday-subtext">
+                &#x27;Kisses!&#x27;
+              </p>
+              <a href="#">See your family&#x27;s birthday wish video</a>
             </div>
           </div>
         </div>
       </div>
-    </LocomotiveScroll>
-  </div>
+    </div>
+  </LocomotiveScroll>
 </template>
 
 <script>
@@ -674,7 +664,7 @@ export default {
           scroller: this.$refs.scroller.locomotive.el,
           start: 'top top',
           end: +2500,
-          snap: 0.05,
+          // snap: 0.05,
           pin: true,
           scrub: true,
           onLeave: () => { tl.play() }
@@ -698,9 +688,9 @@ export default {
           start: 'top 30%'
         }
       })
-      preTl.from('.date.ps', { height: 0, overflow: 'hidden' })
-      preTl.from('.pretext.header', { height: 0, overflow: 'hidden' }, '>')
-      preTl.from('.pretext.ps', { height: 0, overflow: 'hidden' }, '>')
+      preTl.from('.date.ps', { opacity: 0, overflow: 'hidden' })
+      preTl.from('.pretext.header', { opacity: 0, overflow: 'hidden' }, '>')
+      preTl.from('.pretext.ps', { opacity: 0, overflow: 'hidden' }, '>')
     },
 
     navAnimation () {
@@ -722,7 +712,8 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          x: -450
+          x: -450,
+          ease: 'none'
         })
       })
     },
@@ -737,8 +728,7 @@ export default {
             scrub: true
           },
           y: -150,
-          scale: 0.85,
-          x: -150
+          scale: 0.95
         })
       })
       gsap.utils.toArray('.image-wrapper.top-right.parallax').forEach((topRightImg) => {
@@ -749,8 +739,7 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: 60,
-          x: -70
+          y: -20
         })
       })
       gsap.utils.toArray('.image-wrapper.top-left.parallax').forEach((topLeftImg) => {
@@ -761,8 +750,7 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: -70,
-          x: 30
+          y: -70
         })
       })
       gsap.utils.toArray('.image-wrapper.center-right.parallax').forEach((centerRightImg) => {
@@ -773,8 +761,7 @@ export default {
             start: 'top 50%',
             scrub: true
           },
-          y: -45,
-          x: -50
+          y: -120
         })
       })
     },

@@ -21,10 +21,10 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/main.css',
     '@/assets/css/webflow.css',
     '@/assets/css/normalize.css',
-    '@/assets/css/nkechis-23rd.webflow.css'
+    '@/assets/css/nkechis-23rd.webflow.css',
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

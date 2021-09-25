@@ -77,6 +77,10 @@ export default {
   position: relative;
 }
 
+.js-locomotive::-webkit-scrollbar {
+  display: none;
+}
+
 .has-scroll-smooth .js-locomotive.horizontal {
   width: 100%;
   display: block;
@@ -84,7 +88,7 @@ export default {
 
 @media (min-width: 769px) {
   .has-scroll-smooth .js-locomotive.horizontal {
-    width: fit-content;
+    /* width: fit-content; */
     display: table;
   }
 }
