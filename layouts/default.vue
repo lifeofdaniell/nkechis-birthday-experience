@@ -5,6 +5,7 @@
       //:css="false" @leave="leave"
       <Loader v-if="!imagesLoaded" />
     </transition>
+    <VideoModal />
   </div>
 </template>
 

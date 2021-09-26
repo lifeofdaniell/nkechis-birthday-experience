@@ -131,9 +131,9 @@ export default {
               innerText: 1998,
               roundProps: 'innerText',
               onUpdate: () => {
-                this.targets().forEach((target) => {
-                  const val = gsap.getProperty(target, 'innerText')
-                  target.innerText = val
+                this.target((el) => {
+                  const val = gsap.getProperty(el, 'innerText')
+                  el.innerText = val
                 })
               }
             }, '<1')
@@ -154,7 +154,6 @@ export default {
         })
       )
     }
-
   }
 }
 </script>
