@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://res.cloudinary.com/areoladaniel-com/image/upload/v1632727872/Nkechi%20Birthday/6071baa47d7f7c32b9e2be92_download_xrisrn.png');
+  background: url('@/assets/images/noise.png');
   animation: 0.3s infinite noise;
   pointer-events: none;
 } 
@@ -31,7 +31,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://res.cloudinary.com/areoladaniel-com/image/upload/v1632727872/Nkechi%20Birthday/6071baa47d7f7c32b9e2be92_download_xrisrn.png');
+  background: url('@/assets/images/noise.png');
   animation: 0.3s infinite noise;
   pointer-events: none;
 } 
@@ -45,7 +45,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://res.cloudinary.com/areoladaniel-com/image/upload/v1632727872/Nkechi%20Birthday/6071baa47d7f7c32b9e2be92_download_xrisrn.png');
+  background: url('@/assets/images/noise.png');
   animation: 0.3s infinite noise;
   pointer-events: none;
 } */

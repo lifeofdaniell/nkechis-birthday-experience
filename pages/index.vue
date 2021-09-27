@@ -260,7 +260,9 @@
               <p class="birthday-subtext">
                 &#x27;Thank you for all the beautiful years of friendship&#x27;
               </p>
-              <a href="#" @click="openModal">See Moyin&#x27;s birthday wish video</a>
+              <div href="#" @click="openModal">
+                See Moyin&#x27;s birthday wish video
+              </div>
             </div>
             <div class="image-wrapper bottom-left moyin parallax">
               <img
