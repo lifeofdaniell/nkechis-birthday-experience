@@ -50,6 +50,7 @@ export default {
   methods: {
     closeModal () {
       this.$store.commit('updateModal', false)
+      this.isPlaying = false
     },
 
     beforeEnter (el) {
