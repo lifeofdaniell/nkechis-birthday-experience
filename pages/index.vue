@@ -260,7 +260,7 @@
               <p class="birthday-subtext">
                 &#x27;Thank you for all the beautiful years of friendship&#x27;
               </p>
-              <div href="#" @click="openModal">
+              <div class="open-button" @click="openModal">
                 See Moyin&#x27;s birthday wish video
               </div>
             </div>
@@ -920,5 +920,9 @@ export default {
   -webkit-transform: rotate(-11deg);
   -ms-transform: rotate(-11deg);
   transform: rotate(-11deg);
+}
+.open-button{
+  text-decoration: underline;
+  cursor: pointer;
 }
 </style>

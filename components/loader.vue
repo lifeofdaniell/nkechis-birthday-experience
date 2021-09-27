@@ -25,9 +25,9 @@ export default {
   data () {
     return {
       toBePreloaded: [
-        'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697175/Nkechi%20Birthday/Kemi_x_Nkay_yqheih.mp4',
+        /*  'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697175/Nkechi%20Birthday/Kemi_x_Nkay_yqheih.mp4',
         'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697188/Nkechi%20Birthday/Yunuz_x_Nkay_n2uikv.mp4',
-        'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4',
+        'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4', */
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-005_to7xdf.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-002_u2ydlw.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-003_gmxmqk.jpg',
@@ -134,10 +134,9 @@ export default {
               innerText: 1998,
               roundProps: 'innerText',
               onUpdate: () => {
-                this.target((el) => {
-                  const val = gsap.getProperty(el, 'innerText')
-                  el.innerText = val
-                })
+                const element = document.querySelector('.loader-text')
+                const val = gsap.getProperty(element, 'innerText')
+                element.innerText = val
               }
             }, '<1')
             tl.to('.hero-asset._7.loading', {
