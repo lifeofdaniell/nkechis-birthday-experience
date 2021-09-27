@@ -310,7 +310,9 @@
               <p class="birthday-subtext">
                 &#x27;Wish you loads of fun&#x27;
               </p>
-              <a href="#">See Victor&#x27;s birthday wish video</a>
+              <div class="open-button">
+                See Victor&#x27;s birthday wish video
+              </div>
             </div>
             <div class="image-wrapper victor top-left stack">
               <img
@@ -379,7 +381,9 @@
               <p class="birthday-subtext">
                 &#x27;My friieennnnddddddddd&#x27;
               </p>
-              <a href="#">See Yunuz&#x27;s birthday wish video</a>
+              <div class="open-button">
+                See Yunuz&#x27;s birthday wish video
+              </div>
             </div>
             <div class="image-wrapper top-left yunuz parallax">
               <img
@@ -427,7 +431,9 @@
               <p class="birthday-subtext">
                 &#x27;I&#x27;m happy to celebrate you every year&#x27;
               </p>
-              <a href="#">See Kamlash&#x27;s birthday wish video</a>
+              <div class="open-button">
+                See Kamlash&#x27;s birthday wish video
+              </div>
             </div>
             <div class="image-wrapper kamlash top-left stack">
               <img
@@ -482,7 +488,9 @@
               <p class="birthday-subtext">
                 &#x27;Kisses!&#x27;
               </p>
-              <a href="#">See Olamide&#x27;s birthday wish video</a>
+              <div class="open-button">
+                See Olamide&#x27;s birthday wish video
+              </div>
             </div>
           </div>
         </div>
@@ -502,7 +510,9 @@
               <p class="birthday-subtext">
                 &#x27;Kisses!&#x27;
               </p>
-              <a href="#">See Moonface&#x27;s birthday wish video</a>
+              <div class="open-button">
+                See Moonface&#x27;s birthday wish video
+              </div>
             </div>
           </div>
         </div>
@@ -522,7 +532,9 @@
               <p class="birthday-subtext">
                 &#x27;Kisses!&#x27;
               </p>
-              <a href="#">See your family&#x27;s birthday wish video</a>
+              <div class="open-button">
+                See your family&#x27;s birthday wish video
+              </div>
             </div>
           </div>
         </div>
