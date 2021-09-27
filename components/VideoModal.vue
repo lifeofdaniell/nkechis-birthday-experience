@@ -13,11 +13,20 @@
         </div>
         <div class="video-container">
           <div class="video-block">
-            <div class="video" />
+            <div class="video">
+              <video id="birthday-video" width="100%" height="100%">
+                <source src="https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
-        <div class="close-btn" @click="closeModal">
-          Close
+        <div class="controls">
+          <div class="play" :class="[isPlaying ? 'active' : '' ]" @click="playVideo" />
+          <div class="close-btn" @click="closeModal">
+            Close
+          </div>
+          <div class="pause" :class="[isPlaying ? '' : 'active' ]" @click="pauseVideo" />
         </div>
       </div>
     </div>
@@ -30,7 +39,7 @@ import { mapState } from 'vuex'
 export default {
   data () {
     return {
-
+      isPlaying: false
     }
   },
 
@@ -87,6 +96,22 @@ export default {
           duration: 0.8,
           ease: 'power2.inOut'
         })
+    },
+
+    playVideo () {
+      const video = document.querySelector('#birthday-video')
+      if (this.isPlaying === false) {
+        video.play()
+        this.isPlaying = true
+      }
+    },
+
+    pauseVideo () {
+      const video = document.querySelector('#birthday-video')
+      if (this.isPlaying === true) {
+        video.pause()
+        this.isPlaying = false
+      }
     }
   }
 }
@@ -131,6 +156,9 @@ export default {
   padding-top: 70.72%;
 }
 .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 0%;
   top: 0%;
@@ -138,12 +166,54 @@ export default {
   bottom: auto;
   width: 100%;
   height: 100%;
-  background-color: hsla(0, 100.00%, 81.25%, 1.00);
+  background-color: black;
 }
-.close-btn {
-  cursor: pointer;
+.video > video {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+}
+.controls {
   position: absolute;
   bottom: 7vw;
+  display: flex;
+  width: 600px;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play {
+  width: 45px;
+  height: 42px;
+  background-image: url('@/assets/images/play.svg');
+  background-position: 50% 50%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.pause {
+  width: 45px;
+  height: 42px;
+  background-image: url('@/assets/images/pause.svg');
+  background-position: 50% 50%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.pause.active,
+.play.active {
+  opacity: 30%;
+  cursor: not-allowed;
+}
+
+.close-btn {
+  cursor: pointer;
   display: flex;
   min-width: 100px;
   padding-top: 10px;
