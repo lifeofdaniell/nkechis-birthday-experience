@@ -208,7 +208,7 @@ export default {
 }
 .pause.active,
 .play.active {
-  opacity: 30%;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
