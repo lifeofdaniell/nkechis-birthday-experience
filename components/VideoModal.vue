@@ -9,13 +9,16 @@
     <div v-if="modalOpen" class="video-modal">
       <div class="video-modal-wrapper">
         <div class="name">
-          Moyinoluwa
+          {{ name }}
         </div>
         <div class="video-container">
           <div class="video-block">
             <div class="video">
               <video id="birthday-video" width="100%" height="100%">
-                <source src="https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4" type="video/mp4">
+                <source
+                  :src="src"
+                  type="video/mp4"
+                >
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -37,6 +40,17 @@
 import gsap from 'gsap'
 import { mapState } from 'vuex'
 export default {
+  props: {
+    src: {
+      type: String,
+      default: ''
+    },
+    name: {
+      type: String,
+      default: ''
+    }
+  },
+
   data () {
     return {
       isPlaying: false
@@ -175,6 +189,7 @@ export default {
   top: 0%;
   right: 0%;
   bottom: 0%;
+  z-index: 12;
   width: 100%;
   height: 100%;
 }

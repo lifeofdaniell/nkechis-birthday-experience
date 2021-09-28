@@ -2,10 +2,8 @@
   <div>
     <Nuxt v-if="imagesLoaded" />
     <transition name="fade">
-      //:css="false" @leave="leave"
       <Loader v-if="!imagesLoaded" />
     </transition>
-    <VideoModal />
   </div>
 </template>
 
@@ -13,6 +11,21 @@
 import gsap from 'gsap/all'
 import { mapState } from 'vuex'
 export default {
+  data () {
+    return {
+      /*  friends: [
+        {
+          name: 'Moyinoluwa',
+          video_url: 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4'
+        },
+        {
+          name: 'Yunuz',
+          video_url: 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697188/Nkechi%20Birthday/Yunuz_x_Nkay_n2uikv.mp4'
+        }
+      ] */
+    }
+  },
+
   computed: {
     ...mapState(['modalOpen', 'imagesLoaded'])
   },
