@@ -247,7 +247,7 @@
           </div>
 
           <div class="year">
-            <h1 class="large-year">
+            <h1 class="large-year moyin">
               Moyin
             </h1>
             <div class="year-text-container center">
@@ -297,7 +297,7 @@
           </div>
 
           <div class="year horizontal">
-            <h1 class="large-year">
+            <h1 class="large-year victor">
               Victor
             </h1>
             <div class="year-text-container center stack">
@@ -368,7 +368,7 @@
           </div>
 
           <div class="year">
-            <h1 class="large-year">
+            <h1 class="large-year yunuz">
               Yunuz
             </h1>
             <div class="year-text-container center">
@@ -478,8 +478,8 @@
             <h1 class="large-year olamide">
               Olamide
             </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
+            <div class="year-text-container olamide ">
+              <div class="video-wrapper centered olamide">
                 <h5 class="date">
                   Olamide
                 </h5>
@@ -492,6 +492,28 @@
                 <div class="open-button" @click="openModal('Olamide', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4')">
                   See Olamide&#x27;s birthday wish video
                 </div>
+              </div>
+              <div class="video-inline-modal-wrapper">
+                <div class="video-container">
+                  <div class="video-block">
+                    <div class="video">
+                      <video id="olamide-video" width="100%" height="100%">
+                        <source
+                          src="https://res.cloudinary.com/areoladaniel-com/video/upload/v1632754828/Nkechi%20Birthday/Olamide_pqfovz.mp4"
+                          type="video/mp4"
+                        >
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <!--  <div class="controls">
+          <div class="play" :class="[isPlaying ? 'active' : '' ]" @click="playVideo" />
+          <div class="close-btn" @click="closeModal">
+            Close
+          </div>
+          <div class="pause" :class="[isPlaying ? '' : 'active' ]" @click="pauseVideo" />
+        </div> -->
               </div>
             </div>
           </div>
@@ -628,6 +650,7 @@ export default {
     this.nameAnimation()
     this.imageParallax()
     this.stackAnimation()
+    this.playinViewport()
     this.$nuxt.$emit('update-locomotive')
   },
 
@@ -720,9 +743,11 @@ export default {
             trigger: element.parentElement,
             scroller: this.$refs.scroller.locomotive.el,
             start: 'top 50%',
+            // end: 'top top',
+            // markers: true,
             scrub: true
           },
-          x: -450,
+          xPercent: -30,
           ease: 'none'
         })
       })
@@ -784,6 +809,7 @@ export default {
             scroller: this.$refs.scroller.locomotive.el,
             start: 'top top',
             pin: true,
+            // pinSpacing: 'margin',
             scrub: true
           },
           rotationZ: 0,
@@ -913,6 +939,32 @@ export default {
           x: -400
         })
       })
+    },
+
+    playinViewport () {
+      const video = document.querySelector('#olamide-video')
+      const grow = gsap.timeline({
+        scrollTrigger: {
+          trigger: '.year-text-container.olamide',
+          scroller: this.$refs.scroller.locomotive.el,
+          start: 'top 50%',
+          end: 'top -10%',
+          scrub: true
+          // markers: true
+        }
+      })
+      grow.from('.video-inline-modal-wrapper', { scale: 0.75 })
+      ScrollTrigger.create({
+        trigger: video,
+        scroller: this.$refs.scroller.locomotive.el,
+        start: 'top 45%',
+        end: 'top -20%',
+        // markers: true,
+        onEnter: () => video.play(),
+        onEnterBack: () => video.play(),
+        onLeave: () => video.pause(),
+        onLeaveBack: () => video.pause()
+      })
     }
   }
 }
@@ -948,4 +1000,19 @@ export default {
   text-decoration: underline;
   cursor: pointer;
 }
+.year-text-container.olamide{
+  padding-bottom: 10vw;
+  justify-content: space-between;
+}
+.video-wrapper.centered.olamide{
+  margin-bottom: 5vw;
+}
+.video-inline-modal-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 </style>

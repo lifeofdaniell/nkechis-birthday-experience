@@ -551,13 +551,13 @@ p {
 
 .large-year {
   font-family: Grotesk, sans-serif;
-  font-size: 50vw;
+  font-size: 45vw;
   line-height: 1em;
   font-weight: 700;
   letter-spacing: -3vw;
 }
 
-.large-year.moonface {
+/* .large-year.moonface {
   font-size: 35vw;
 }
 
@@ -567,10 +567,10 @@ p {
 
 .large-year.kamlash {
   font-size: 38vw;
-}
+} */
 
 .large-year.family {
-  font-size: 30vw;
+  /* font-size: 30vw; */
   white-space: nowrap;
 }
 
