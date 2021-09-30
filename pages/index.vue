@@ -1111,30 +1111,34 @@ export default {
     },
 
     playinViewport () {
-      gsap.utils.toArray('.video-inline-modal-wrapper').forEach((videoEl) => {
-        const video = videoEl.firstElementChild.firstElementChild.firstElementChild.firstElementChild
-        ScrollTrigger.create({
-          trigger: video,
-          scroller: this.$refs.scroller.locomotive.el,
-          start: 'top 45%',
-          end: 'top -20%',
-          // markers: true,
-          onEnter: () => video.play(),
-          onEnterBack: () => video.play(),
-          onLeave: () => video.pause(),
-          onLeaveBack: () => video.pause()
-        })
-        const grow = gsap.timeline({
-          scrollTrigger: {
-            trigger: videoEl.parentElement,
-            scroller: this.$refs.scroller.locomotive.el,
-            start: 'top 50%',
-            end: 'top -10%',
-            scrub: true
-          // markers: true
-          }
-        })
-        grow.from(videoEl, { scale: 0.75 })
+      ScrollTrigger.matchMedia({
+        '(min-width: 1030px)': () => {
+          gsap.utils.toArray('.video-inline-modal-wrapper').forEach((videoEl) => {
+            const video = videoEl.firstElementChild.firstElementChild.firstElementChild.firstElementChild
+            ScrollTrigger.create({
+              trigger: video,
+              scroller: this.$refs.scroller.locomotive.el,
+              start: 'top 45%',
+              end: 'top -20%',
+              // markers: true,
+              onEnter: () => video.play(),
+              onEnterBack: () => video.play(),
+              onLeave: () => video.pause(),
+              onLeaveBack: () => video.pause()
+            })
+            const grow = gsap.timeline({
+              scrollTrigger: {
+                trigger: videoEl.parentElement,
+                scroller: this.$refs.scroller.locomotive.el,
+                start: 'top 50%',
+                end: 'top -10%',
+                scrub: true
+                // markers: true
+              }
+            })
+            grow.from(videoEl, { scale: 0.75 })
+          })
+        }
       })
     }
   }
