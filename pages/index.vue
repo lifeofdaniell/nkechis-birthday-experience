@@ -1136,29 +1136,6 @@ export default {
         })
         grow.from(videoEl, { scale: 0.75 })
       })
-      // const video = document.querySelector('#olamide-video')
-      /*  const grow = gsap.timeline({
-        scrollTrigger: {
-          trigger: '.year-text-container.olamide',
-          scroller: this.$refs.scroller.locomotive.el,
-          start: 'top 50%',
-          end: 'top -10%',
-          scrub: true
-          // markers: true
-        }
-      })
-      grow.from('.video-inline-modal-wrapper', { scale: 0.75 })
-      ScrollTrigger.create({
-        trigger: video,
-        scroller: this.$refs.scroller.locomotive.el,
-        start: 'top 45%',
-        end: 'top -20%',
-        // markers: true,
-        onEnter: () => video.play(),
-        onEnterBack: () => video.play(),
-        onLeave: () => video.pause(),
-        onLeaveBack: () => video.pause()
-      }) */
     }
   }
 }

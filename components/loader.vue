@@ -115,6 +115,10 @@ export default {
     }
   },
 
+  beforeMount () {
+    this.checkScreen()
+  },
+
   mounted () {
     const loader = this.$refs.loader
     this.preload()
@@ -124,6 +128,11 @@ export default {
 
     window.addEventListener('resize', () => {
       loader.style.height = `${window.innerHeight}px`
+      if (window.matchMedia('(max-width: 1030px)').matches) {
+        this.$store.commit('updateScreen', false)
+      } else {
+        this.$store.commit('updateScreen', true)
+      }
     })
   },
 
@@ -171,6 +180,13 @@ export default {
           }
         })
       )
+    },
+    checkScreen () {
+      if (window.matchMedia('(max-width: 1030px)').matches) {
+        this.$store.commit('updateScreen', false)
+      } else {
+        this.$store.commit('updateScreen', true)
+      }
     }
   }
 }

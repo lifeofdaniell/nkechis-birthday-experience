@@ -1,6 +1,7 @@
 export const state = () => ({
   modalOpen: false,
-  imagesLoaded: false
+  imagesLoaded: false,
+  onDesktop: true
 })
 
 export const mutations = {
@@ -9,5 +10,9 @@ export const mutations = {
   },
   updateImagesLoaded: (state, payload) => {
     state.imagesLoaded = payload
+  },
+  updateScreen: (state, payload) => {
+    state.onDesktop = payload
   }
+
 }
