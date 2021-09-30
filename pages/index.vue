@@ -202,30 +202,8 @@
             </div>
           </div>
         </div>
+
         <div class="years-wrapper">
-          <!--   <div class="nav-years" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-            <a href="#" class="year-link w-inline-block">
-              <div>Moyin</div>
-            </a>
-            <a href="#" class="year-link w-inline-block">
-              <div>Victor</div>
-            </a>
-            <a href="#" class="year-link w-inline-block">
-              <div>Yunuz</div>
-            </a>
-            <a href="#" class="year-link w-inline-block">
-              <div>Kamlash</div>
-            </a>
-            <a href="#" class="year-link w-inline-block">
-              <div>Olamide</div>
-            </a>
-            <a href="#" class="year-link w-inline-block">
-              <div>Moonface</div>
-            </a>
-            <a href="#" class="year-link w-inline-block">
-              <div>The Family</div>
-            </a>
-          </div> -->
           <div class="year prefix">
             <div class="year-text-container">
               <div class="year-text-wrapper">
@@ -236,12 +214,57 @@
                   Nkechinyeremkanma! You&#x27;re <strong>23</strong> years today!
                   To celebrate you, we both how much of an impact you&#x27;ve had
                   on me as a person, but do you know how much impact you&#x27;ve
-                  had on others and how much they appreciate you? This is a
+                  had on others and how much they appreciate you and love you? This is a
                   reminder. 🖤
                 </p>
                 <p class="pretext ps">
-                  <em>PS. I had a blast creating this!</em>
+                  <em>PS. I had a blast creating this and we all miss you!</em>
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="year">
+            <h1 class="large-year family">
+              The Okochi's
+            </h1>
+            <div class="year-text-container carousel-container-fam">
+              <div class="carousel">
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754811/Nkechi%20Birthday/YoungNkay-002_fb3bil.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754809/Nkechi%20Birthday/YoungNkay-001_tn4qfr.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754811/Nkechi%20Birthday/YoungNkay-003_amf5kq.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754814/Nkechi%20Birthday/YoungNkay-005_mlzy6y.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754814/Nkechi%20Birthday/YoungNkay-006_ienqwc.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754814/Nkechi%20Birthday/YoungNkay-004_kosn4a.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632998997/Nkechi%20Birthday/YoungNkay8_wyudsn.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754809/Nkechi%20Birthday/YoungNkay-00_nfytga.jpg">
+                </div>
+                <div class="video-wrapper centered">
+                  <h5 class="date">
+                    The Okochi's
+                  </h5>
+                  <h1 class="birthday-header">
+                    A Special Message from your family
+                  </h1>
+                  <div class="open-button" @click="openModal('The Okochi\'s', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632995046/Nkechi%20Birthday/The_Family_yavgaq_taooxv.mp4')">
+                    See your family&#x27;s birthday wish video
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -297,69 +320,70 @@
           </div>
 
           <div class="year horizontal">
-            <h1 class="large-year victor">
-              Victor
+            <h1 class="large-year temileyi">
+              Temileyi
             </h1>
             <div class="year-text-container center stack">
               <div class="video-wrapper centered">
                 <h5 class="date">
-                  Victor
+                  Temileyi
                 </h5>
                 <h1 class="birthday-header">
-                  &quot;It&#x27;s no news that i love you so much&quot;
+                  &quot;I love how intentional you are&quot;
                 </h1>
                 <p class="birthday-subtext">
-                  &#x27;Wish you loads of fun&#x27;
+                  &#x27;I miss you!&#x27;
                 </p>
-                <div class="open-button" @click="openModal('Victor', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632800130/Nkechi%20Birthday/Victor_x_Nkay.MOV_qmcwgw.mp4')">
-                  See Victor&#x27;s birthday wish video
+                <div class="open-button" @click="openModal('Temileyi', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632754834/Nkechi%20Birthday/Temileyi_x_Nkay_b35eo9.mp4')">
+                  See Temileyi&#x27;s birthday wish video
                 </div>
               </div>
               <div class="image-wrapper victor top-left stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Victor_x_Nkay-011_kg3sfw.jpg"
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754808/Nkechi%20Birthday/Temileyi_x_Nkay-007_pwtcfp.jpg"
                   alt=""
                   class="image stack"
                 >
               </div>
               <div class="image-wrapper victor top-center-left stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513267/Nkechi%20Birthday/Victor_x_Nkay-006_jyhusv.jpg"
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754807/Nkechi%20Birthday/Temileyi_x_Nkay-006_ly7o7q.jpg"
                   alt=""
                   class="image stack"
                 >
               </div>
               <div class="image-wrapper victor top-center-right stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513269/Nkechi%20Birthday/Victor_x_Nkay-010_vfnm58.jpg"
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-004_auav58.jpg"
                   alt=""
                   class="image stack"
                 >
               </div>
               <div class="image-wrapper victor top-right stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513268/Nkechi%20Birthday/Victor_x_Nkay-012_ppet2n.jpg"
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-003_segbo3.jpg"
                   alt=""
                   class="image stack"
                 >
               </div>
               <div class="image-wrapper victor bottom-left stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513267/Nkechi%20Birthday/Victor_x_Nkay-007_losvlf.jpg"
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-005_ffl5mu.jpg"
                   alt=""
                   class="image stack"
                 >
               </div>
               <div class="image-wrapper victor bottom-center stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513265/Nkechi%20Birthday/Victor_x_Nkay-005_vk4aud.jpg"
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-001_vak0v3.jpg"
                   alt=""
                   class="image stack"
                 >
               </div>
               <div class="image-wrapper victor bottom-right stack">
                 <img
-                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513265/Nkechi%20Birthday/Victor_x_Nkay-001_nvl2ip.jpg"
+
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632775159/Nkechi%20Birthday/Temileyi_x_Nkay-002_lkbtbr.jpg"
                   alt=""
                   class="image stack"
                 >
@@ -412,6 +436,77 @@
                   src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-001_oamllq.jpg"
                   alt=""
                   class="image mid"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="year horizontal">
+            <h1 class="large-year victor">
+              Victor
+            </h1>
+            <div class="year-text-container center stack">
+              <div class="video-wrapper centered">
+                <h5 class="date">
+                  Victor
+                </h5>
+                <h1 class="birthday-header">
+                  &quot;It&#x27;s no news that i love you so much&quot;
+                </h1>
+                <p class="birthday-subtext">
+                  &#x27;Wish you loads of fun&#x27;
+                </p>
+                <div class="open-button" @click="openModal('Victor (Could not show his face for whatever reason)', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632800130/Nkechi%20Birthday/Victor_x_Nkay.MOV_qmcwgw.mp4')">
+                  See Victor&#x27;s birthday wish video
+                </div>
+              </div>
+              <div class="image-wrapper victor top-left stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Victor_x_Nkay-011_kg3sfw.jpg"
+                  alt=""
+                  class="image stack"
+                >
+              </div>
+              <div class="image-wrapper victor top-center-left stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513267/Nkechi%20Birthday/Victor_x_Nkay-006_jyhusv.jpg"
+                  alt=""
+                  class="image stack"
+                >
+              </div>
+              <div class="image-wrapper victor top-center-right stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513269/Nkechi%20Birthday/Victor_x_Nkay-010_vfnm58.jpg"
+                  alt=""
+                  class="image stack"
+                >
+              </div>
+              <div class="image-wrapper victor top-right stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513268/Nkechi%20Birthday/Victor_x_Nkay-012_ppet2n.jpg"
+                  alt=""
+                  class="image stack"
+                >
+              </div>
+              <div class="image-wrapper victor bottom-left stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513267/Nkechi%20Birthday/Victor_x_Nkay-007_losvlf.jpg"
+                  alt=""
+                  class="image stack"
+                >
+              </div>
+              <div class="image-wrapper victor bottom-center stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513265/Nkechi%20Birthday/Victor_x_Nkay-005_vk4aud.jpg"
+                  alt=""
+                  class="image stack"
+                >
+              </div>
+              <div class="image-wrapper victor bottom-right stack">
+                <img
+                  src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513265/Nkechi%20Birthday/Victor_x_Nkay-001_nvl2ip.jpg"
+                  alt=""
+                  class="image stack"
                 >
               </div>
             </div>
@@ -484,13 +579,13 @@
                   Olamide
                 </h5>
                 <h1 class="birthday-header">
-                  &quot;Love you babe!&quot;
+                  &quot;I know you're going to be a champion!&quot;
                 </h1>
                 <p class="birthday-subtext">
-                  &#x27;Kisses!&#x27;
+                  &#x27;Wish you all the good things in life!&#x27;
                 </p>
-                <div class="open-button" @click="openModal('Olamide', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4')">
-                  See Olamide&#x27;s birthday wish video
+                <div>
+                  Scroll down to watch Olamide&#x27;s birthday wish video
                 </div>
               </div>
               <div class="video-inline-modal-wrapper">
@@ -507,13 +602,43 @@
                     </div>
                   </div>
                 </div>
-                <!--  <div class="controls">
-          <div class="play" :class="[isPlaying ? 'active' : '' ]" @click="playVideo" />
-          <div class="close-btn" @click="closeModal">
-            Close
+              </div>
+            </div>
           </div>
-          <div class="pause" :class="[isPlaying ? '' : 'active' ]" @click="pauseVideo" />
-        </div> -->
+
+          <div class="year ">
+            <h1 class="large-year olivia">
+              Olivia
+            </h1>
+            <div class="year-text-container olivia ">
+              <div class="video-wrapper centered olivia">
+                <h5 class="date">
+                  Olivia
+                </h5>
+                <h1 class="birthday-header">
+                  &quot;You've been there for me!&quot;
+                </h1>
+                <p class="birthday-subtext">
+                  &#x27;You've been like a sister to me&#x27;
+                </p>
+                <div>
+                  Scroll down to watch Olivia&#x27;s birthday wish video
+                </div>
+              </div>
+              <div class="video-inline-modal-wrapper">
+                <div class="video-container">
+                  <div class="video-block">
+                    <div class="video">
+                      <video id="olivia-video" width="100%" height="100%">
+                        <source
+                          src="https://res.cloudinary.com/areoladaniel-com/video/upload/v1632995009/Nkechi%20Birthday/Olivia_x_Nkay_lxnxrl.mp4"
+                          type="video/mp4"
+                        >
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -522,45 +647,64 @@
             <h1 class="large-year moonface">
               Moonface
             </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  Moonface
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;Love you babe!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Kisses!&#x27;
-                </p>
-                <div class="open-button" @click="openModal('Moonface', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4')">
-                  See Moonface&#x27;s birthday wish video
+            <div class="year-text-container carousel-container">
+              <div class="carousel">
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513250/Nkechi%20Birthday/Daniel_x_Nkay-019_dlt4i4.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513249/Nkechi%20Birthday/Daniel_x_Nkay-017_cpyqoi.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513247/Nkechi%20Birthday/Daniel_x_Nkay-014_xwpzxx.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513248/Nkechi%20Birthday/Daniel_x_Nkay-010_k1wmgn.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513247/Nkechi%20Birthday/Daniel_x_Nkay-018_wgt7mt.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513247/Nkechi%20Birthday/Daniel_x_Nkay-015_bpe6ou.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513243/Nkechi%20Birthday/Daniel_x_Nkay-002_h6o6cl.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632999897/Nkechi%20Birthday/3edf4f58-7d00-4e87-8797-dae8d340893a_pgsmio.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-001_qbcmye.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632999900/Nkechi%20Birthday/IMG_1172_rgj7cd.jpg">
+                </div>
+                <div class="carousel-block">
+                  <img class="carousel-image" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632999905/Nkechi%20Birthday/IMG_3964_df2ifq.jpg">
+                </div>
+                <div class="video-wrapper centered">
+                  <h5 class="date">
+                    Moonface
+                  </h5>
+                  <h1 class="birthday-header">
+                    &quot;I miss you!&quot;
+                  </h1>
+                  <p class="birthday-subtext">
+                    &#x27;✌🏾🌝&#x27;
+                  </p>
+                  <div class="open-button" @click="openModal('Moonface', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1633001602/Nkechi%20Birthday/moonface_sjst1v.mp4')">
+                    Watch my birthday wish video to you ❤️
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="year">
-            <h1 class="large-year family">
-              The Family
-            </h1>
-            <div class="year-text-container center">
-              <div class="video-wrapper centered">
-                <h5 class="date">
-                  The Family
-                </h5>
-                <h1 class="birthday-header">
-                  &quot;Love you babe!&quot;
-                </h1>
-                <p class="birthday-subtext">
-                  &#x27;Kisses!&#x27;
-                </p>
-                <div class="open-button" @click="openModal('The Family', 'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4')">
-                  See your family&#x27;s birthday wish video
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="end-credits">
+          Have a splendid 23rd!<br>
+          Made with love<br>
+          By Moonface ❤️
         </div>
       </div>
     </LocomotiveScroll>
@@ -582,6 +726,7 @@ export default {
       activeName: ''
     }
   },
+
   head () {
     return {
       bodyAttrs: {
@@ -592,7 +737,7 @@ export default {
         'data-wf-page': '60f31f4bb1246a04f940673a',
         'data-wf-site': '60f31f4bb1246a7451406739'
       },
-      title: '🎉 Nkechi Okochi'
+      title: 'Nkechi\'s 23rd 🖤'
       /*  meta: [
         {
           hid: 'description',
@@ -644,12 +789,16 @@ export default {
   },
 
   mounted () {
+    // GSAP Order is important (Mount animations with 'pin: true' first)
+    this.$nuxt.$emit('update-locomotive')
     this.initScrolltrigger()
     this.heroAnimation()
     this.prefixAnimation()
-    this.nameAnimation()
-    this.imageParallax()
+    this.famcarouselAnimation()
     this.stackAnimation()
+    this.carouselAnimation()
+    this.imageParallax()
+    this.nameAnimation()
     this.playinViewport()
     this.$nuxt.$emit('update-locomotive')
   },
@@ -726,14 +875,34 @@ export default {
       preTl.from('.pretext.ps', { opacity: 0, overflow: 'hidden' }, '>')
     },
 
-    navAnimation () {
-      const navTl = gsap.timeline({
+    famcarouselAnimation () {
+      gsap.to('.year-text-container.carousel-container-fam', {
         scrollTrigger: {
-          trigger: '.year.first',
-          start: 'top top'
-        }
+          trigger: '.year-text-container.carousel-container-fam',
+          scroller: this.$refs.scroller.locomotive.el,
+          start: 'top top',
+          end: '+=4000',
+          pin: true,
+          scrub: true
+        },
+        xPercent: -180,
+        ease: 'none'
       })
-      navTl.from('.nav-years', { opacity: 0 })
+    },
+
+    carouselAnimation () {
+      gsap.to('.year-text-container.carousel-container', {
+        scrollTrigger: {
+          trigger: '.year-text-container.carousel-container',
+          scroller: this.$refs.scroller.locomotive.el,
+          start: 'top top',
+          end: '+=4000',
+          pin: true,
+          scrub: true
+        },
+        xPercent: -237,
+        ease: 'none'
+      })
     },
 
     nameAnimation () {
@@ -743,7 +912,7 @@ export default {
             trigger: element.parentElement,
             scroller: this.$refs.scroller.locomotive.el,
             start: 'top 50%',
-            // end: 'top top',
+            // refreshPriority: -1
             // markers: true,
             scrub: true
           },
@@ -809,7 +978,7 @@ export default {
             scroller: this.$refs.scroller.locomotive.el,
             start: 'top top',
             pin: true,
-            // pinSpacing: 'margin',
+            // pinSpacing: false,
             scrub: true
           },
           rotationZ: 0,
@@ -942,8 +1111,33 @@ export default {
     },
 
     playinViewport () {
-      const video = document.querySelector('#olamide-video')
-      const grow = gsap.timeline({
+      gsap.utils.toArray('.video-inline-modal-wrapper').forEach((videoEl) => {
+        const video = videoEl.firstElementChild.firstElementChild.firstElementChild.firstElementChild
+        ScrollTrigger.create({
+          trigger: video,
+          scroller: this.$refs.scroller.locomotive.el,
+          start: 'top 45%',
+          end: 'top -20%',
+          // markers: true,
+          onEnter: () => video.play(),
+          onEnterBack: () => video.play(),
+          onLeave: () => video.pause(),
+          onLeaveBack: () => video.pause()
+        })
+        const grow = gsap.timeline({
+          scrollTrigger: {
+            trigger: videoEl.parentElement,
+            scroller: this.$refs.scroller.locomotive.el,
+            start: 'top 50%',
+            end: 'top -10%',
+            scrub: true
+          // markers: true
+          }
+        })
+        grow.from(videoEl, { scale: 0.75 })
+      })
+      // const video = document.querySelector('#olamide-video')
+      /*  const grow = gsap.timeline({
         scrollTrigger: {
           trigger: '.year-text-container.olamide',
           scroller: this.$refs.scroller.locomotive.el,
@@ -964,7 +1158,7 @@ export default {
         onEnterBack: () => video.play(),
         onLeave: () => video.pause(),
         onLeaveBack: () => video.pause()
-      })
+      }) */
     }
   }
 }
@@ -1004,15 +1198,59 @@ export default {
   padding-bottom: 10vw;
   justify-content: space-between;
 }
-.video-wrapper.centered.olamide{
+.video-wrapper.centered.olamide,
+.video-wrapper.centered.olivia
+{
   margin-bottom: 5vw;
 }
-.video-inline-modal-wrapper{
+.video-inline-modal-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
+.year-text-container.carousel-container,
+.year-text-container.carousel-container-fam {
+  min-height: 100vh;
+  align-items: flex-start;
+}
+.carousel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.carousel-block {
+  min-width: 250px;
+  height: 400px;
+  max-height: 500px;
+  margin-right: 2.5vw;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  border-top-style: solid;
+  border-top-width: 1.7vw;
+  border-top-color: hsla(0, 0.00%, 100.00%, 1.00);
+  border-right-style: solid;
+  border-right-width: 1.7vw;
+  border-right-color: hsla(0, 0.00%, 100.00%, 1.00);
+  border-bottom-style: solid;
+  border-bottom-width: 1.7vw;
+  border-bottom-color: hsla(0, 0.00%, 100.00%, 1.00);
+  border-left-style: solid;
+  border-left-width: 1.7vw;
+  border-left-color: hsla(0, 0.00%, 100.00%, 1.00);
+  background-color: hsla(0, 0.00%, 100.00%, 1.00);
+  box-shadow: -5px 13px 30px -12px hsla(0, 0.00%, 0.00%, 0.40);
+}
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.end-credits{
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
 </style>

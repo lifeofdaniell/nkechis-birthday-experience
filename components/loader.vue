@@ -4,7 +4,7 @@
     <div class="hero-asset _7 loading">
       <div class="hero-image-wrapper">
         <img
-          src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513260/Nkechi%20Birthday/Nkay-008_eruiys.jpg"
+          src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1633011770/Nkechi%20Birthday/nkaywebsite_t53tv0.jpg"
           loading="lazy"
           alt=""
           class="hero-image"
@@ -25,9 +25,22 @@ export default {
   data () {
     return {
       toBePreloaded: [
-        /*  'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697175/Nkechi%20Birthday/Kemi_x_Nkay_yqheih.mp4',
-        'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697188/Nkechi%20Birthday/Yunuz_x_Nkay_n2uikv.mp4',
-        'https://res.cloudinary.com/areoladaniel-com/video/upload/v1632697193/Nkechi%20Birthday/Moyin_x_Nkay_ldku7r.mp4', */
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1633011770/Nkechi%20Birthday/nkaywebsite_t53tv0.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754811/Nkechi%20Birthday/YoungNkay-002_fb3bil.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754809/Nkechi%20Birthday/YoungNkay-001_tn4qfr.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754809/Nkechi%20Birthday/YoungNkay-00_nfytga.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754814/Nkechi%20Birthday/YoungNkay-004_kosn4a.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754811/Nkechi%20Birthday/YoungNkay-003_amf5kq.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754814/Nkechi%20Birthday/YoungNkay-005_mlzy6y.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754814/Nkechi%20Birthday/YoungNkay-006_ienqwc.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632998997/Nkechi%20Birthday/YoungNkay8_wyudsn.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754808/Nkechi%20Birthday/Temileyi_x_Nkay-007_pwtcfp.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754807/Nkechi%20Birthday/Temileyi_x_Nkay-006_ly7o7q.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-005_ffl5mu.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-004_auav58.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-003_segbo3.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632775159/Nkechi%20Birthday/Temileyi_x_Nkay-002_lkbtbr.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632754806/Nkechi%20Birthday/Temileyi_x_Nkay-001_vak0v3.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-005_to7xdf.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-002_u2ydlw.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513270/Nkechi%20Birthday/Yunuz_x_Nkay-003_gmxmqk.jpg',
@@ -94,7 +107,10 @@ export default {
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513243/Nkechi%20Birthday/Daniel_x_Nkay-006_ijtjin.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-003_glbkhc.jpg',
         'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-001_qbcmye.jpg',
-        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-004_d6lzmq.jpg'
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632513242/Nkechi%20Birthday/Daniel_x_Nkay-004_d6lzmq.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632999905/Nkechi%20Birthday/IMG_3964_df2ifq.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632999900/Nkechi%20Birthday/IMG_1172_rgj7cd.jpg',
+        'https://res.cloudinary.com/areoladaniel-com/image/upload/v1632999897/Nkechi%20Birthday/3edf4f58-7d00-4e87-8797-dae8d340893a_pgsmio.jpg'
       ]
     }
   },

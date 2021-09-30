@@ -7,15 +7,20 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Nkechi Okochi',
+    title: 'Nkechi\'s 23rd 🖤',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Celebrating 23 Years with Nkechi Okochi' },
+      {
+        property: 'og:image',
+        hid: 'og:image',
+        content:
+          'https://res.cloudinary.com/areoladaniel-com/image/upload/v1633014004/Nkechi%20Birthday/webclip_njwsbv.jpg'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
 
