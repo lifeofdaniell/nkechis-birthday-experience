@@ -17,7 +17,13 @@ export default {
         hid: 'og:image',
         content:
           'https://res.cloudinary.com/areoladaniel-com/image/upload/v1633014004/Nkechi%20Birthday/webclip_njwsbv.jpg'
-      }
+      },
+      { hid: 'og:title', property: 'og:title', content: 'Nkechi\'s 23rd 🖤' },
+      { hid: 'og:description', property: 'og:description', content: 'Celebrating 23 Years with Nkechi Okochi' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:title', property: 'twitter:title', content: 'Nkechi\'s 23rd 🖤' },
+      { hid: 'twitter:description', property: 'twitter:description', content: 'Celebrating 23 Years with Nkechi Okochi' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
