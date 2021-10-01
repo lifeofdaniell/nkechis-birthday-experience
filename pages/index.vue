@@ -701,10 +701,22 @@
           </div>
         </div>
 
-        <div class="end-credits">
-          Have a splendid 23rd!<br>
-          Made with love<br>
-          By Moonface ❤️
+        <div class="end">
+          <div class="playlist">
+            <iframe
+              src="https://open.spotify.com/embed/playlist/1p3goiiGh3cUemNDY9d88u?theme=0"
+              width="100%"
+              height="380"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            />
+          </div>
+          <div class="end-credits">
+            Have a splendid 23rd!<br>
+            Made with love<br>
+            By Moonface ❤️
+          </div>
         </div>
       </div>
     </LocomotiveScroll>
@@ -1229,6 +1241,27 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.end {
+ padding-top: 12vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+background-image: url('https://res.cloudinary.com/areoladaniel-com/image/upload/v1633011770/Nkechi%20Birthday/nkaywebsite_t53tv0.jpg');
+  background-position: -327% 32%;
+  background-size: 115%;
+  background-repeat: repeat-x;
+}
+.playlist{
+  min-width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 0.4vw solid white;
+  background: white;
 }
 .end-credits{
   text-align: center;
